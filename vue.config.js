@@ -9,7 +9,7 @@ const config = {
 		  .set('views', resolve('src/views'))
 		  .set('router',resolve('src/router'))
 		  .set('store',resolve('src/store'))
-		  // .set('utils',resolve('src/utils'))
+		  .set('common',resolve('src/common'))
 		  .set('components', resolve('src/components'))
 		config.optimization.runtimeChunk('single')
 	  }
